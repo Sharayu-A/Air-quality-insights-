@@ -136,7 +136,11 @@ set_background_and_style()
 # App Logic
 if not st.session_state["logged_in"]:
     # Login / Signup Tabs
-    st.title("Air Quality Insights 🚀")
+    st.markdown("""
+    <h1 style='color: black; text-align: center;'>
+        Air Quality Insights 🚀
+    </h1>
+    """, unsafe_allow_html=True)
 
     tab1, tab2 = st.tabs(["Login", "Signup"])
 
