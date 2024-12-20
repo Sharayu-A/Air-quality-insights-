@@ -164,11 +164,12 @@ else:
     st.sidebar.button("Logout", on_click=logout)
 
     # Dashboard Content
-st.markdown("""
+    st.markdown("""
     <h2 class='welcome-title' style='color: black; font-family: Arial, sans-serif; font-size: 36px; font-weight: bold; text-align: center;'>
         Air Quality Insights Dashboard
     </h2>
-""", unsafe_allow_html=True)
+               """, unsafe_allow_html=True)
+
 
 
     # Centered iframe
